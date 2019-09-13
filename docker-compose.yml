@@ -1,0 +1,9 @@
+version: "3"
+services:
+  flask:
+    build:
+      context: .
+    ports:
+      - "8090:8090"
+    environment:
+      - LC_CTYPE=C.UTF-8
